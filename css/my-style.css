@@ -1,0 +1,61 @@
+.parallax-window {
+  min-height: 460px;
+  background: transparent;
+  position: relative;
+}
+
+.parallax-window-2 {
+  min-height: 220px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background: transparent;
+  position: relative;
+}
+
+.parallax-mirror {
+  z-index: 999 !important;
+}
+
+.table-main-content { background-color: #ffffff; }
+
+.table-section {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+.table-section-header {
+  color: #996633;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.table-text-left { 
+	text-align: left; 
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+}
+
+tr.table-tr-header {
+  background-color: #c4cdd6;
+  height: 50px;
+}
+
+
+@media (min-width: 450px) {
+  .responsive-table { overflow-x: auto; }
+  table { min-width: 400px; width: auto; margin-left: auto; margin-right: auto; }
+  .table-special-items { flex-direction: column; }
+  .table-special-item { margin-bottom: 40px; }
+  figcaption p {
+    margin-bottom: 0;
+    line-height: 1;
+  }
+}
